@@ -30,8 +30,9 @@ Edite o arquivo `.env` na raiz do projeto e ajuste as variáveis de conexão com
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=nome_do_banco
+DB_DATABASE=montink
 DB_USERNAME=seu_usuario
+DB_PASSWORD=sua senha
 
 ### 3. Gerar a chave da aplicação
 
@@ -59,7 +60,7 @@ php artisan serve
 
 ### 7. Acessar a aplicação no navegador
 
-Abra [http://localhost:8000](http://localhost:8000)
+Abra [http://localhost:8000]
 
 ---
 
@@ -69,11 +70,11 @@ Seu ambiente Laravel está configurado e em execução localmente.
 
 ### Para executar testes.
 
-- Acesso Menu Produtos e cadastre um novo (incluindo variações ou não).
+- Acesse o menu Produtos e cadastre um novo (incluindo variações ou não).
 - Clique comprar.
 - Selecione a varição (se houver) e quantidade para adicionar ao carrinho.
-- Acesso Menu Cupons, selecione um cupom válido para aplicar ao carrinho.
-- Acesso novamente o carrinho, verifique o desconto e finalize informando cep e email .
+- Acesse menu Cupons, selecione um cupom válido para aplicar ao carrinho.
+- Acesse novamente o carrinho, verifique o desconto e finalize informando cep e email .
 
 ### Atualizando status do pedido.
 
