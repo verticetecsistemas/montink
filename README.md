@@ -21,7 +21,9 @@ composer install
 
 ---
 
-### 2. Configurar o banco de dados
+### 2. Criar e configurar o banco de dados
+
+- Na linha de comando do mysql : create database montink
 
 Edite o arquivo `.env` na raiz do projeto e ajuste as variáveis de conexão com o MySQL:
 
